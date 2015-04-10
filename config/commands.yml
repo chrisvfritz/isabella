@@ -1,0 +1,18 @@
+-
+  pattern: what time is it
+  script: time
+-
+  pattern: how am i looking today
+  script: flirt
+-
+  pattern: 'tell me (?:the|a) joke(?: (?:with|about) ?(?:a|an|the)? ([\w\s]+))?'
+  script: joke
+-
+  pattern: 'add ([\w\s]+) to (?:the|my|our) (?:shopping|grocery) list'
+  script: add_to_shopping_list
+-
+  pattern: remodulate the sensors to use a recursive algorithm
+  script: sensors
+-
+  pattern: '(sudo)? ?make me a sandwich'
+  script: sandwich

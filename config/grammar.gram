@@ -1,0 +1,19 @@
+#JSGF V1.0;
+
+grammar isabella;
+
+public <sentence> = hey isabella <command>;
+
+<command> = what time is it | how am i looking today | tell me a joke | tell me <article> joke <joke-preposition> [<article>] <joke-reference> | add <grocery-item> to <filler-first-possessive> <grocery-synonym> list | remodulate the sensors to use a recursive algorithm | [sudo] make me a sandwich;
+
+<article> = a | an | the;
+
+<joke-preposition> = with | about;
+
+<joke-reference> =  orion | etymologist | bar | pessimist | funerals;
+
+<filler-first-possessive> = the | my | our;
+
+<grocery-synonym> = grocery | shopping;
+
+<grocery-item> = eggs | bread | tomatoes;
