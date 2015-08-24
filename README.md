@@ -108,9 +108,9 @@ This is a complete list of phonemes you can use:
 All alternate pronunciations must be marked with paranthesized serial numbers starting from (2) for the second pronunciation. The marker (1) is omitted. For example:
 
 ```
-directing    D AY R EH K T I NG
-directing(2) D ER EH K T I NG
-directing(3) D I R EH K T I NG
+directing    D AY R EH K T IH NG
+directing(2) D ER EH K T IH NG
+directing(3) D IH R EH K T IH NG
 ```
 
 ## Usage
