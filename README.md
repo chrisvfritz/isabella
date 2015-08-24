@@ -123,6 +123,5 @@ That'll tell Isabella to start listening for commands. Just `Ctrl-C` when you wa
 
 ## Ideas for increasing accuracy
 
-- Use [Sphinxtrain](http://www.speech.cs.cmu.edu/sphinxman/scriptman1.html) to train Isabella for my voice, specifically. It looks like a pain in the butt, so I've been putting it off.
 - Figure out a way to implement a test suite. I have a vague idea of how I could right now, but it would involve creating the same wave files I'd need for Sphinxtrain anyway, so I'll probably do that at the same time.
 - Use [dual-microphone speech extraction](http://www.dsp.agh.edu.pl/_media/pl:05337185.pdf) to first separate speech from environment noise, *then* feed the result to Pocketsphinx. I imagine this would require two of the same microphone ideally and looks like yet another thing to research, so again, putting it off.
